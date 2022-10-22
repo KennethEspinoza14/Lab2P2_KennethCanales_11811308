@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Players {
     
     private String Jugador;
-    private int monedas = 0;
+    private int monedas = 100;
     private ArrayList <String> items = new ArrayList();
     private int victorias;
     

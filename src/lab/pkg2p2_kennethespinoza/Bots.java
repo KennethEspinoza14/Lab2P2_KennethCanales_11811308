@@ -4,8 +4,9 @@ package lab.pkg2p2_kennethespinoza;
 public class Bots {
 
     private String bot;
-    
-    public Bots(String b) {
+    private int velocidad;
+    private String aspecto;
+    public Bots(String b,int aspecto, String Aspecto ) {
         bot = b;
     }
 
@@ -16,6 +17,7 @@ public class Bots {
     public void setBot(String b) {
         bot = b;
     }
+    
     
     
     
